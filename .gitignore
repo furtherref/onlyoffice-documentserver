@@ -1,0 +1,67 @@
+######################################################################
+# Build Tools
+
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+######################################################################
+# IDE
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+node_modules/
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+*/node_modules/
+.history
+.lh
+
+######################################################################
+# Others
+*.log
+*.xml.versionsBackup
+*.swp
+
+# tmp dir
+tmp
+
+!*/build/*.java
+!*/build/*.html
+!*/build/*.xml
+
+**/application*local*.yml
+
+*.DS_Store
+**/package-lock.json
+types/auto/*.json
+types/auto/*.d.ts
+
+.pnpm-store
+/doc
+
+.cursor/ecc-install-state.json
+
+docs/superpowers
+.superpowers
+
+.claude/worktrees/
+.claude/settings.local.json
